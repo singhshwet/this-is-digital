@@ -1,4 +1,4 @@
-@media(max-width:550px) {
+@media(max-width: 500px) {
 
 #nav #h2{
 font-size: 25px; 
@@ -8,7 +8,8 @@ font-family: "Cooper Lt Bt";
 }
 
 #navpart2{
-    display: none;
+ 
+   display: none;
 }
 
 
@@ -21,7 +22,7 @@ font-family: "Cooper Lt Bt";
     position: absolute;
     top: 1%;
     left: 10%;
-    width: 80%;
+    width: 80%
 
 }  
 #page1 #text #img1{
@@ -428,7 +429,7 @@ font-family: "Cooper Lt Bt";
 #page5{
     width: 100vw;
     height: 100vh;
-    display: flex;
+    /* display: flex; */
     /* display: contents; */
   
 }
@@ -557,11 +558,11 @@ font-family: "Cooper Lt Bt";
     width: 50%;
 }
 
-}
 #page5{
     width: 100vw;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     
   
 }
@@ -573,4 +574,5 @@ font-family: "Cooper Lt Bt";
     align-items: center;
     position: relative;
     justify-content: center;
+}
 }
